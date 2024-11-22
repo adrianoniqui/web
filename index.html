@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto js - poo- Edteam</title>
+    <script type="module" src="./scripts/index.js" defer></script>
+    <link rel="stylesheet" href="https://ux.ed.team/css/styles.css?201803301710">
+</head>
+<body>
+    <div class="ed-grid">
+        <h1>EDcursos</h1>
+        <form action="" id="formCursos">
+            <div class="ed-grid m-grid-4">
+                <div class="form-item">
+                    <label>
+                        Nombre:
+                        <input type="text" name="nombreCurso" required>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>
+                        Poster:
+                        <input type="text" name="posterCurso" required>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <label>
+                        Clases  :
+                        <input type="number" min="1" name="clasesCurso" required>
+                    </label>
+                </div>
+                <div class="form-item m-py-3" >
+                        <input class="button" type="submit" value="Crear curso">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="ed-grid m-grid-4 s-grid-2 row-gap" id="cursos">   
+        
+    </div>
+</body>
+</html>
